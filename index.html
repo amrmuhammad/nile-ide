@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Nile IDE</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- LEFT PANEL -->
+  <div class="panel" id="left">
+    <h3>Components</h3>
+    <button onclick="addButton()">+ Button</button>
+  </div>
+
+  <!-- CENTER CANVAS -->
+  <div id="canvas"></div>
+
+  <!-- RIGHT PANEL -->
+  <div class="panel" id="right">
+    <h3>Properties</h3>
+    <div id="props">Select an element</div>
+
+    <h3>Generated Code</h3>
+    <pre id="code"></pre>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
